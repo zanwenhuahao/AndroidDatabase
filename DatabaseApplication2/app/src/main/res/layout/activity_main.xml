@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Add User"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:onClick="adduserPressed"/>
+
+    <Button
+        android:id="@+id/viewbutton"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="View Users"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="242dp"
+        android:onClick="viewuserPressed"/>
+
+    <Button
+        android:id="@+id/deletebutton"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Delete User"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="357dp"
+        android:onClick="deleteuserPressed"/>
+
+    <Button
+        android:id="@+id/editbutton"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Edit User"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="488dp"
+        android:onClick="edituserPressed"/>
+
+</LinearLayout>
